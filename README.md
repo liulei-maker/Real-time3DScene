@@ -1,4 +1,7 @@
 # Real-time3DScene
 show Real-time 3D reconstruction of scene
-2021.11.22日
-该项目使用的是astra深度相机采集colorImage和depthImage，由相机内部参数计算得到在相机坐标系下的点云坐标数据，采用opencv34和open3D_0.10做实时三维显示。
+2021.11.22
+language:C++
+environment:open3D_0.10,  opencv3.4,  ASTRA SDK
+In this project, ASTRA Depth Camera was used to collect colorImage and depthImage, and the point cloud coordinate data in camera coordinate system was obtained by calculating the internal parameters of the camera. Opencv34 and Open3D_0.10 were used for real-time 3D display.
+Reconstruction using open3D is also included in the project, and data sets can be downloaded from the Redwood 3D open source dataset.
